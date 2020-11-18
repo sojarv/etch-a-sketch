@@ -1,0 +1,76 @@
+* {
+    font-family: 'Orbitron', sans-serif;
+}
+
+body {
+    background-color: #cbbcb1;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+    font-size: 2em;
+    margin: 20px 0;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container div {
+    justify-content: center;
+}
+
+#content {
+    background-color: #af6b58;
+    width: 750px;
+    height: 750px;
+    margin: 20px 0;
+    border-radius: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+
+.square,
+.squareHover {
+    float: left;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.square40,
+.square40Hover {
+    float: left;
+    border-radius: 2px;
+    margin-left: 2px;
+    margin-top: 2px;
+}
+
+.squareHover,
+.square40Hover {
+    background-color: #556052;
+    transition-duration: 800ms;
+}
+
+#button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+button {
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    user-select: none;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    background-color: #556052;
+    color: #f2efea;
+    font-size: 1.5em;
+}
