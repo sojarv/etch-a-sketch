@@ -2,6 +2,7 @@
 
 function doSqaures(n) {
 
+    n = parseInt(n)
     if (n <= 100 && Number.isInteger(n)) {
         let node = document.getElementById('content');
         removeAllChildNodes(node); // deletes all previous children
@@ -30,7 +31,7 @@ function doSqaures(n) {
 
         }
     } else {
-        number = Number(window.prompt('How many squares do you want? (1-100)')); // ask the question again if it is not a number or is more than 100
+        number = window.prompt('How many squares do you want? (1-100)'); // ask the question again if it is not a number or is more than 100
         doSqaures(number)
     }
 
